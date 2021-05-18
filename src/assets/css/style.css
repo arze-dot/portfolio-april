@@ -1,0 +1,256 @@
+html {
+    position: relative;
+}
+
+body {
+    background: #1A1A1A;
+    overflow-x: hidden !important;
+}
+
+@font-face {
+    font-family: "Lovelo";
+    src: url(../fonts/lovelo/Lovelo\ Line\ Light.otf);
+}
+
+@font-face {
+    font-family: "Poppins-Semibold";
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+
+/* Navbar */
+
+.navbar-brand {
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.navbar-brand h1{
+    font-family: "Lovelo";
+    margin: 0;
+    padding: 0;
+}
+
+
+.active a {
+    color: #FF2C00 !important;
+}
+
+.navbar-collapse {
+    font-family: "Poppins-Semibold";
+}
+
+.collapse ul {
+    margin-left: 50px;
+}
+.collapse ul li {
+    margin-left: 40px;
+}
+
+.navbar-right {
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+/* Tutup style Navbar */
+
+/* Jumbotron */
+
+.jumbotron .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-family: "Lovelo";
+    margin-bottom: 150px;
+  }
+
+  .ellipse {
+      position: absolute;
+      width: 1000px;
+      height: 300px;
+      border-radius: 50%;
+      opacity: 50%;
+      filter: blur(100px);
+  }
+
+  .container .text-writer {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #f3d52b, 0 0 30px #f8cbad,
+     0 0 35px #ffda7d;
+  }
+
+  /* Tutup style Jumbotron */
+
+  /* About */
+
+  .about .container {
+    margin-top: 50px;
+  }
+
+.about .container h3 {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #f3d52b, 0 0 30px #f8cbad,
+     0 0 35px #ffda7d;
+     text-align: center;
+    font-family: "Lovelo";
+}
+
+.about .container-about {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about .container-about span {
+    background: red;
+    width: 100px;
+    height: 2px;
+}
+
+.about .container-about .container-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:flex-start;
+    margin-top: 25px !important;
+}
+
+
+/* Tutup Style About */
+
+/* Portfolio Style */
+.portfolio .container {
+    margin-top: 150px;
+    margin-bottom: -100px;
+}
+
+.portfolio .container h3 {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #f3d52b, 0 0 30px #f8cbad,
+     0 0 35px #ffda7d;
+     text-align: center;
+    font-family: "Lovelo";
+}
+
+/* Tutup Style Portfolio */
+
+/* Technical Skills Style */
+.skills .container {
+    margin-top: 300px;
+    margin-bottom: -200px;
+}
+
+.skills .container h3 {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #f3d52b, 0 0 30px #f8cbad,
+     0 0 35px #ffda7d;
+     text-align: center;
+    font-family: "Lovelo";
+}
+
+.btn-sm {
+    width: 40%;
+    height: 100%;
+    padding: 0;
+}
+
+.h5-text {
+    font-size: 20px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #df830c, 0 0 30px #f8cbad,
+     0 0 35px #ffb700;
+  }
+/* Tutup Technical Skills Style */
+
+/* Forms Hire Me */
+
+.forms-hire-me {
+    margin-top: 400px;
+}
+
+/* Tutup Forms Hire Me */
+
+/* Contact */
+
+.contact {
+    margin-top: 260px;
+    margin-bottom: 50px;
+}
+
+h5 {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60800, 0 0 20px #f57b2a, 0 0 25px #df830c, 0 0 30px #f8cbad,
+     0 0 35px #ffb700;
+  }
+
+  /* Tutup Contact */
+
+  /* Footer */
+
+  footer {
+      margin-top: 150px;
+      color: white;
+  }
+
+  footer .bottom{
+      margin-top: 100px;
+  }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid gray;
+    border-radius: 5px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    color: black;
+    box-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #e60800, 
+    0 0 20px #f57b2a, 
+    0 0 25px #df830c, 
+    0 0 30px #f8cbad,
+    0 0 35px #ffb700;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Linkedin */
+  .fa-linkedin {
+    background: white;
+    color: #1A1A1A;
+  }
+
+  
+  /* Instagram */
+  .fa-instagram {
+    background: white;
+    color: #1A1A1A;
+  }
+  
+
+  /* Youtube */
+
+  .fa-youtube {
+    background: white;
+    color: #1A1A1A;
+  }
+  footer .bottom hr {
+      width: 100vw;
+      border: 1px solid white;
+  }
+  /* Tutup Footer */
+ 

@@ -1,0 +1,41 @@
+
+.list-group-item {
+    background-color: #1A1A1A !important;
+}
+
+.card-img-top {
+    margin: 20px;
+    width: 85% !important;
+}
+
+.card {
+    background-color: #1A1A1A !important ;
+    color: #D84D4D;
+    border: 1px white solid !important;
+    box-shadow: 0 3px 50px #FF2C00;
+    height: 400px;
+}
+
+$jumbotron-color:   white !default;
+
+$jumbotron-bg:  #1A1A1A !default;
+
+.btn {
+    width: 150px;
+}
+
+.nav-link:hover {
+    color: #FF2C00 !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+$theme-colors: (
+  "primary": #FF2C00,
+  "danger": #D84D4D,
+  "light": white
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
